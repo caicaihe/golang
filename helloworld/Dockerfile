@@ -1,8 +1,7 @@
-FROM daocloud.io/library/centos
+FROM apline:3.6
 USER root
 RUN mkdir /app
 ADD . /app
 EXPOSE 80
 WORKDIR /app/helloworld
-CMD ["chmod +x helloworld"]
-CMD ["./helloworld"]
+
