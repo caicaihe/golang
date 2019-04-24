@@ -1,4 +1,4 @@
-FROM apline:3.6
+FROM alpine:3.6
 USER root
 RUN mkdir /app
 ADD . /app
